@@ -1,4 +1,4 @@
-package com.tranvantinhnbk.app;
+package com.tranvantinhnbk;
 
 /**
  * Hello world!
@@ -8,6 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
+
         System.out.println( "Hello World!" );
     }
 }
