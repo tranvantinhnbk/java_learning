@@ -3,6 +3,7 @@ package com.tranvantinhnbk;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.ProducerConfig;
+
 import java.util.Properties;
 
 public class Producer {
@@ -19,7 +20,13 @@ public class Producer {
                 String key = "key-" + i;
                 String value = "Hello Kafka! Message #" + i;
                 ProducerRecord<String, String> record = new ProducerRecord<>(topic, key, value);
-                producer.send(record);
+                producer.send(record, (metadata, exception) -> {
+                    if (exception != null) {
+                        exception.printStackTrace();
+                    } else {
+                        System.out.println("Sent: " + value + " to partition " + metadata.partition());
+                    }
+                });
                 System.out.println("Sent: " + value);
             }
         }

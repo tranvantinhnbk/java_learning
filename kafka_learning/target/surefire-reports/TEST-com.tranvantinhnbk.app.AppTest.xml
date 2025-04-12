@@ -3,7 +3,7 @@
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/tranvantinh/Documents/java_learning/kafka_learning/target/test-classes:/Users/tranvantinh/Documents/java_learning/kafka_learning/target/classes:/Users/tranvantinh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/tranvantinh/.m2/repository/org/apache/kafka/kafka-clients/4.0.0/kafka-clients-4.0.0.jar:/Users/tranvantinh/.m2/repository/com/github/luben/zstd-jni/1.5.6-6/zstd-jni-1.5.6-6.jar:/Users/tranvantinh/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/Users/tranvantinh/.m2/repository/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5.jar:/Users/tranvantinh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:"/>
+    <property name="java.class.path" value="/Users/tranvantinh/Documents/java_learning/kafka_learning/target/test-classes:/Users/tranvantinh/Documents/java_learning/kafka_learning/target/classes:/Users/tranvantinh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/tranvantinh/.m2/repository/org/apache/kafka/kafka-clients/4.0.0/kafka-clients-4.0.0.jar:/Users/tranvantinh/.m2/repository/com/github/luben/zstd-jni/1.5.6-6/zstd-jni-1.5.6-6.jar:/Users/tranvantinh/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/Users/tranvantinh/.m2/repository/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5.jar:/Users/tranvantinh/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="VN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/tranvantinh/Documents/java_learning/kafka_learning/target/surefire/surefirebooter-20250412153928562_3.jar /Users/tranvantinh/Documents/java_learning/kafka_learning/target/surefire 2025-04-12T15-39-28_514-jvmRun1 surefire-20250412153928562_1tmp surefire_0-20250412153928562_2tmp"/>
+    <property name="sun.java.command" value="/Users/tranvantinh/Documents/java_learning/kafka_learning/target/surefire/surefirebooter-20250412175432663_3.jar /Users/tranvantinh/Documents/java_learning/kafka_learning/target/surefire 2025-04-12T17-54-32_634-jvmRun1 surefire-20250412175432663_1tmp surefire_0-20250412175432663_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/tranvantinh/Documents/java_learning/kafka_learning/target/test-classes:/Users/tranvantinh/Documents/java_learning/kafka_learning/target/classes:/Users/tranvantinh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/tranvantinh/.m2/repository/org/apache/kafka/kafka-clients/4.0.0/kafka-clients-4.0.0.jar:/Users/tranvantinh/.m2/repository/com/github/luben/zstd-jni/1.5.6-6/zstd-jni-1.5.6-6.jar:/Users/tranvantinh/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/Users/tranvantinh/.m2/repository/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5.jar:/Users/tranvantinh/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/tranvantinh/Documents/java_learning/kafka_learning/target/test-classes:/Users/tranvantinh/Documents/java_learning/kafka_learning/target/classes:/Users/tranvantinh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/tranvantinh/.m2/repository/org/apache/kafka/kafka-clients/4.0.0/kafka-clients-4.0.0.jar:/Users/tranvantinh/.m2/repository/com/github/luben/zstd-jni/1.5.6-6/zstd-jni-1.5.6-6.jar:/Users/tranvantinh/.m2/repository/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar:/Users/tranvantinh/.m2/repository/org/xerial/snappy/snappy-java/1.1.10.5/snappy-java-1.1.10.5.jar:/Users/tranvantinh/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/tranvantinh"/>
     <property name="user.language" value="en"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/tranvantinh/Documents/java_learning/kafka_learning/target/surefire/surefirebooter-20250412153928562_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/tranvantinh/Documents/java_learning/kafka_learning/target/surefire/surefirebooter-20250412175432663_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="22.0.2"/>
@@ -58,5 +58,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testApp" classname="com.tranvantinhnbk.app.AppTest" time="0.005"/>
+  <testcase name="testApp" classname="com.tranvantinhnbk.app.AppTest" time="0.004"/>
 </testsuite>
